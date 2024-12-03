@@ -1,0 +1,100 @@
+/* General Styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 5px;
+  background-color: #f4f5f9;
+  color: #636363;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+/* Filter Section */
+.filter {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.list {
+  cursor: pointer;
+}
+
+/* Main Email Container */
+.email-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Email Home Section */
+.email-home-container {
+  transition: width 0.3s ease;
+}
+
+.email-home-container.full-width {
+  width: 100%;
+}
+
+.email-home-container.narrow {
+  width: 50%;
+  overflow-y: auto;
+}
+
+/* Email Body Section */
+.email-body-container {
+  width: 70%;
+  padding: 10px;
+  box-shadow: -1px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+/* Email Cards */
+.main {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #cfd2dc;
+  margin-top: 20px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.main:hover {
+  background-color: #f2f2f2;
+}
+
+/* Email Image */
+.email-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #e54065;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Content Section */
+.content {
+  width: 100%;
+  background-color: inherit;
+}
+.main:hover p {
+  background-color: inherit;
+}
+.main p {
+  background-color: inherit;
+}
